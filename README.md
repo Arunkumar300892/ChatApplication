@@ -1,2 +1,2 @@
 # ChatApplication
-Expermenting ChatApplication with Rails-5
+Experimenting ChatApplication with Rails-5
