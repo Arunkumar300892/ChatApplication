@@ -1,0 +1,7 @@
+h1
+  = @chat_room.title
+  
+#messages[data-chat-room-id = "#{@chat_room.id}"]
+  = render partial: 'messages', locals: { messages: @chat_room.messages }
+
+= render 'form'

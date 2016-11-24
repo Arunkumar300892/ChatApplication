@@ -1,0 +1,7 @@
+= simple_form_for [@chat_room, @message], remote: true do |f|
+  .form-group
+    = f.label :body
+    = f.text_area :body, class: 'form-control'
+    small.text-muted
+      | From 2 to 1000 characters
+  = f.submit  'Post!', class: 'btn btn-primary btn-lg'

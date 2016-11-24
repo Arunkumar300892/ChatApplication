@@ -1,0 +1,8 @@
+.lead
+  = link_to 'New Chat Room', new_chat_room_path, class: 'btn btn-primary'
+  
+ul#chat--rooms
+  = render @chat_rooms
+
+.logout
+  = link_to 'Logout', destroy_user_session_path, method: 'delete', class: 'btn btn-link'

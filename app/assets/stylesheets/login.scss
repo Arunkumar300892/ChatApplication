@@ -1,0 +1,96 @@
+html,
+body {
+  background: #efefef;
+  background-color: #efefef !important;
+  padding: 10px;
+  font-family: 'Varela Round';
+}
+
+.login-page {
+  text-align: center;
+  background: #efefef;
+}
+
+a {
+  color: #aaaaaa;
+  transition: all ease-in-out 200ms;
+}
+
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+
+.etc-login-form {
+  color: #919191;
+  padding: 15px 20px;
+}
+
+.etc-login-form p {
+  margin-bottom: 5px;
+}
+
+.login-form {
+  max-width: 300px;
+  border-radius: 5px;
+  display: inline-block;
+  background: #fff;
+}
+
+.main-login-form {
+  position: relative;
+}
+
+.login-form .form-control {
+  border: 0;
+  box-shadow: 0 0 0;
+  border-radius: 0;
+  background: transparent;
+  color: #555555;
+  padding: 7px 0;
+  font-weight: bold;
+  height:auto;
+}
+
+.login-form .form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.login-form .form-control:-moz-placeholder,
+.login-form .form-control::-moz-placeholder,
+.login-form .form-control:-ms-input-placeholder {
+  color: #999999;
+}
+
+.login-form .form-group {
+  margin-bottom: 0;
+  border-bottom: 2px solid #efefef;
+  padding-right: 20px;
+  position: relative;
+}
+
+.login-form .form-group:last-child {
+  border-bottom: 0;
+}
+
+.login-group {
+  background: #ffffff;
+  color: #999999;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.login-group-checkbox {
+  padding: 5px 0;
+
+  .remember_me {
+    padding-left: 5px;
+  }
+}
+
+.logo {
+  padding: 15px 0;
+  font-size: 25px;
+  color: #aaaaaa;
+  font-weight: bold;
+}
